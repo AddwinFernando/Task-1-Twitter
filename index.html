@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="appleid-signin-client-id" content="[CLIENT_ID]" />
+    <meta name="appleid-signin-scope" content="[SCOPES]" />
+    <meta name="appleid-signin-redirect-uri" content="[REDIRECT_URI]" />
+    <meta name="appleid-signin-state" content="[STATE]" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Landing">
+      <div class="Logo">
+        <img src="images/Logo.png" alt="Logo" class="png" />
+      </div>
+      <div class="Content">
+        <h1>Happening now</h1>
+        <h2>Join today</h2>
+        <button class="btn">
+          <i class="fab fa-google fa-1x"></i> Sign up with google
+        </button>
+        <div
+          id="appleid-signin"
+          class="signin-button"
+          data-color="white"
+          data-border="true"
+          data-border-radius="50"
+          data-type="sign-up"
+          data-width="300"
+          data-height="40"
+        ></div>
+        <div class="separator">
+          <div class="line"></div>
+          <h5>or</h5>
+          <div class="line"></div>
+        </div>
+        <button class="Crt-Btn">Create account</button>
+        <p>
+          By signing up, you agree to the <a href="#">Terms of Service</a> and
+          <br />
+          <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>.
+        </p>
+        <h3><span class="ald">Already have an account</span></h3>
+        <button class="sign-btn">Sign in</button>
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"
+  ></script>
+</html>
